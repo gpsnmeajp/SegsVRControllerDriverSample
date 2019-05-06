@@ -6,6 +6,7 @@ srcがドライバのソースです。
 jsonで通信するためpicojsonに依存しています。  
   
 ビルドしたい場合は以下のチュートリアルがわかりやすいです。  
+なおVisual Studio Community 2013でビルドしないと不安定な動作をすることがあります。  
 https://github.com/terminal29/Simple-OpenVR-Driver-Tutorial  
   
 bin以下がドライバです。  
@@ -13,6 +14,8 @@ C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers
 に配置すると読み込まれます。  
   
 clientは、共有メモリ経由で通信するコンソールアプリケーションのサンプルです。  
+Visual Studio Community 2013でWin32コンソールアプリケーションとしてビルドします。  
+
 jsonで通信するためpicojsonに依存しています。  
 キーボードで仮想コントローラの座標を制御できます。  
   
